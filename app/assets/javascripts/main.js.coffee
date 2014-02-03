@@ -49,7 +49,6 @@ $ ->
 
   $('#word-cloud').jQCloud word_list,
     delayedMode: true
-    removeOverflowing: false
 
   google.maps.event.addDomListener window, 'load', showMap
 
@@ -57,8 +56,10 @@ $ ->
     center = window.map.getCenter()
     google.maps.event.trigger window.map, 'resize'
     window.map.setCenter center
+    window.marker.setAnimation google.maps.Animation.DROP
 
 window.map
+window.marker
 
 showMap = ->
   home = new google.maps.LatLng 52.123002, 5.094841
@@ -72,11 +73,10 @@ showMap = ->
   infowindow = new google.maps.InfoWindow
     content: "Haïtidreef 3E<br>3563 HC&nbsp;&nbsp;Utrecht"
 
-  marker = new google.maps.Marker
+  window.marker = new google.maps.Marker
     position: home
     map: map
-    animation: google.maps.Animation.DROP
     title: 'home'
 
-  google.maps.event.addListener marker, 'click', ->
-    infowindow.open map, marker
+  google.maps.event.addListener window.marker, 'click', ->
+    infowindow.open map, window.marker
