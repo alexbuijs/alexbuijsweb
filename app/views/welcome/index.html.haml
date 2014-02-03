@@ -1,11 +1,21 @@
-%h1 Alex Buijs Web Development
+%ul.nav.nav-tabs
+  %li.active
+    = link_to 'home', '#home', data: { toggle: 'tab' }
+  %li
+    = link_to 'data', '#data', data: { toggle: 'tab' }
 
-%h2 Contact
-%p Tel.: 06-40485702
-%p E-mail: contact@alexbuijsweb.nl
-%h2 Adres
-Haïtidreef 3E
-%br 3563 HC&nbsp;&nbsp;Utrecht
-%h2 Zakelijk
-%p Kvk nummer: 59563710
-%p BTW nummer: NL177182672B01
+.tab-content
+  #home.tab-pane.active
+    = render 'home'
+  #data.tab-pane
+    = render 'data'
+
+.contact-details
+  .phone
+    = link_to 'tel:+31640485702' do
+      %span.glyphicon.glyphicon-earphone
+      06 64048 5702
+  .mail
+    = mail_to 'contact@alexbuijsweb.nl' do
+      %span.glyphicon.glyphicon-envelope
+      contact@alexbuijsweb.nl
