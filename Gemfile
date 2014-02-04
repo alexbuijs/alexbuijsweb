@@ -35,6 +35,8 @@ gem 'jqcloud-rails'
 
 group :production do
   gem 'rails_12factor'
+  gem 'heroku-deflater'
+  gem 'newrelic_rpm'
 end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

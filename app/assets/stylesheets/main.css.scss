@@ -7,11 +7,6 @@
   }
 }
 
-body {
-  background-color: #eee;
-  color: #505C51;
-}
-
 .container {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -25,6 +20,10 @@ body {
     border-radius: 4px 4px 0 0;
     box-shadow: 0 0 5px 1px #ddd;
     padding-top: 10px;
+
+    ul.nav li.active a {
+      background-color: #fff;
+    }
   }
 }
 
@@ -73,43 +72,43 @@ body {
     }
 
     .w10 {
-      color: #505C51;
+      color: lighten($brand-primary, 0%);
     }
 
     .w9 {
-      color: #5D6B5E;
+      color: lighten($brand-primary, 7.5%);
     }
 
     .w8 {
-      color: #6A7A6C;
+      color: lighten($brand-primary, 15%);
     }
 
     .w7 {
-      color: #788A7A;
+      color: lighten($brand-primary, 22.5%);
     }
 
     .w6 {
-      color: #859987;
+      color: lighten($brand-primary, 30%);
     }
 
     .w5 {
-      color: #92A895;
+      color: lighten($brand-primary, 37.5%);
     }
 
     .w4 {
-      color: #A0B8A3;
+      color: lighten($brand-primary, 45%);
     }
 
     .w3 {
-      color: #ADC7B0;
+      color: lighten($brand-primary, 52.5%);
     }
 
     .w2 {
-      color: #BAD6BE;
+      color: lighten($brand-primary, 60%);
     }
 
     .w1 {
-      color: #C8E6CC;
+      color: lighten($brand-primary, 67.5%);
     }
   }
 }
