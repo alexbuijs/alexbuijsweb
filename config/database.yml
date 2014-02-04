@@ -8,7 +8,6 @@ development:
   encoding: unicode
   database: alexbuijsweb
   pool: 5
-  username: alexbuijsweb
   password:
   host: localhost
 
@@ -26,5 +25,4 @@ production:
   encoding: unicode
   database: alexbuijsweb
   pool: 5
-  username: alexbuijsweb
   password:
