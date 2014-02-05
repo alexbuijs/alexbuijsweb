@@ -13,8 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require_tree .
 //= require bootstrap/tab
 //= require bootstrap/modal
 //= require bootstrap/transition
 //= require jqcloud
+//= require_tree .
