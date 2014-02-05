@@ -16,4 +16,5 @@
 //= require_tree .
 //= require bootstrap/tab
 //= require bootstrap/modal
+//= require bootstrap/transition
 //= require jqcloud

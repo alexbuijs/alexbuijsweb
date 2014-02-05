@@ -4,7 +4,7 @@ TODO:
   ☐ add resume + downloadable document
   ✔ add description + photo (about tab) @done (14-02-05 18:02)
   ☐ add 'X' header on every tab
-  ☐ add downloadable general conditions
+  ☐ add downloadable terms & conditions
   ✔ change 'data' tab name + data layout @done (14-02-05 18:02)
   ☐ add portfolio of websites (youmagine, light-collector, lpp-vo, lpp-mbo, vo-admin, examentrainer)
   ☐ SEO!
