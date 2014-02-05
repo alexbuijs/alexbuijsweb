@@ -1,0 +1,46 @@
+skills:
+  basic:
+    - 'Ruby': 10
+  js:
+    - 'Javascript': 3
+    - 'Coffeescript': 6
+  html:
+    - 'HTML5': 3
+    - 'HAML': 6
+    - 'Slim': 2
+    - 'ERB': 1
+  css:
+    - 'CSS3': 3
+    - 'SCSS': 6
+    - 'Sass': 3
+    - 'LESS': 1
+  sql:
+    - 'SQL': 3
+  databases:
+    - 'MySQL': 2
+    - 'PostgreSQL': 6
+    - 'Redis': 4
+  frameworks:
+    - 'Rails': 9
+    - 'jQuery': 6
+    - 'Bootstrap': 6
+  tools:
+    - 'Capistrano': 3
+    - 'RSpec': 6
+    - 'Git': 6
+    - 'RVM': 3
+    - 'Sublime Text': 1
+    - 'OS X': 2
+  servers:
+    - 'Nginx': 4
+    - 'Apache': 3
+    - 'Unicorn': 4
+    - 'Phusion Passenger': 1
+  services:
+    - 'Heroku': 5
+    - 'GitHub': 5
+    - 'Amazon S3': 3
+    - 'Amazon EC2': 3
+  methods:
+    - 'Test Driven Development': 4
+    - 'Scrum': 5
