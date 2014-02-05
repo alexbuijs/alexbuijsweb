@@ -113,7 +113,52 @@
   }
 }
 
-.contact-details {
+#about {
+  .thumbnail {
+    width: 200px;
+    height: 200px;
+  }
+
+  #profile-picture {
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+#info {
+  #map-canvas {
+    height: 300px;
+  }
+
+  .info, .social {
+    @extend .row;
+
+    .data {
+      @extend .col-md-3;
+      @extend .panel;
+      @extend .panel-default;
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 15px;
+
+      .heading {
+        @extend .panel-heading;
+
+        h3 {
+          @extend .panel-title;
+        }
+      }
+
+      .body {
+        @extend .panel-body;
+      }
+    }
+  }
+}
+
+#contact-details {
   @extend .row;
   margin-top: 20px;
   margin-bottom: 10px;
@@ -121,11 +166,5 @@
   .phone, .mail {
     @extend .col-md-6;
     text-align: center;
-  }
-}
-
-#data {
-  #map-canvas {
-    height: 300px;
   }
 }

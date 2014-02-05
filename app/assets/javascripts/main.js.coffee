@@ -52,7 +52,8 @@ $ ->
 
   google.maps.event.addDomListener window, 'load', showMap
 
-  $(document).on 'shown.bs.tab', ->
+  $(document).on 'shown.bs.tab', (e) ->
+    return unless $(e.target).html() is 'info'
     center = window.map.getCenter()
     google.maps.event.trigger window.map, 'resize'
     window.map.setCenter center

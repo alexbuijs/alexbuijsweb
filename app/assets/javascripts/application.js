@@ -15,4 +15,5 @@
 //= require turbolinks
 //= require_tree .
 //= require bootstrap/tab
+//= require bootstrap/modal
 //= require jqcloud

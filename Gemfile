@@ -32,6 +32,7 @@ gem 'haml-rails'
 gem 'bourbon'
 gem 'bootstrap-sass'
 gem 'jqcloud-rails'
+gem 'font-awesome-rails'
 
 group :production do
   gem 'rails_12factor'

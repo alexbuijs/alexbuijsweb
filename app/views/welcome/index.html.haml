@@ -2,20 +2,22 @@
   %li.active
     = link_to 'home', '#home', data: { toggle: 'tab' }
   %li
-    = link_to 'data', '#data', data: { toggle: 'tab' }
+    = link_to 'about', '#about', data: { toggle: 'tab' }
+  %li
+    = link_to 'info', '#info', data: { toggle: 'tab' }
 
 .tab-content
   #home.tab-pane.active
     = render 'home'
-  #data.tab-pane
-    = render 'data'
+  #about.tab-pane
+    = render 'about'
+  #info.tab-pane
+    = render 'info'
 
-.contact-details
+#contact-details
   .phone
     = link_to 'tel:+31640485702' do
-      %span.glyphicon.glyphicon-earphone
-      +316 4048 5702
+      = fa_icon 'phone', text: '+316 4048 5702'
   .mail
     = mail_to 'contact@alexbuijsweb.nl' do
-      %span.glyphicon.glyphicon-envelope
-      contact@alexbuijsweb.nl
+      = fa_icon 'envelope', text: 'contact@alexbuijsweb.nl'
