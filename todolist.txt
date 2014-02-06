@@ -1,12 +1,13 @@
 TODO:
   ☐ add internationalization
   ✔ add linkedin + facebook + github links @done (14-02-05 18:02)
-  ☐ add resume + downloadable document
+  ✔ add resume @done (14-02-06 14:20)
   ✔ add description + photo (about tab) @done (14-02-05 18:02)
   ☐ add 'X' header on every tab
   ☐ add downloadable terms & conditions
+  ☐ add downloadable CV
   ✔ change 'data' tab name + data layout @done (14-02-05 18:02)
-  ☐ add portfolio of websites (youmagine, light-collector, lpp-vo, lpp-mbo, vo-admin, examentrainer)
+  ✔ add portfolio of websites (youmagine, light-collector, lpp-vo, lpp-mbo, vo-admin, examentrainer) @done (14-02-06 13:33)
   ☐ SEO!
 
     korte beschrijving persoonlijkheid

@@ -80,6 +80,9 @@ body {
   .thumbnail {
     width: 200px;
     height: 200px;
+    float: right;
+    margin-bottom: 5px;
+    margin-left: 5px;
   }
 
   #profile-picture {
@@ -113,17 +116,21 @@ body {
 }
 
 #portfolio {
-  .carousel-caption {
-    background: rgba(0,0,0,0.5);
-    margin-bottom: 20px;
-    padding: 0;
+  .carousel {
+    height: 470px;
 
-    h3 {
-      margin-top: 10px;
-    }
+    .carousel-caption {
+      background: rgba(0,0,0,0.5);
+      margin-bottom: 20px;
+      padding: 0;
 
-    a {
-      color: #fff;
+      h3 {
+        margin-top: 10px;
+      }
+
+      a {
+        color: #fff;
+      }
     }
   }
 }

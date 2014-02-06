@@ -1,13 +1,27 @@
 .page-header
   %h1 About me
 
-%p
-  I am a web developer with over #{years_ago('2006-1-1')} years of experience developing web applications.
-  I started as a freelancer in january 2014. I enjoy programming in Ruby on Rails a lot.
-
 .thumbnail
   = link_to '#profile-picture', data: { toggle: 'modal' } do
     = image_tag('profile.jpg', alt: 'Profile picture')
+
+%p
+  I am a web developer with over #{years_ago('2006-1-1')} years of experience developing web applications.
+  Between january 2006 and january 2014, I worked at Ciber Netherlands B.V. as a consultant in the ECM & Portals
+  service line.
+  I have over #{years_ago('2008-10-1')} years of experience with Ruby on Rails. Once I encountered Ruby,
+  there was no way back for me. I get a lot of satisfaction out of programming in Ruby. In january 2014
+  I started as a freelancer, developing web applications with Ruby on Rails. I enjoy using the latest techniques and
+  best practices. I take pride in creating beautiful and minimal code.
+
+%p
+  I was born in Utrecht, the Netherlands on may 17, 1974. I studied Cognitive Artificial Intelligence at the
+  Faculty of Philosophy, Utrecht University.
+  After I received my master's segree I went several times to Japan, over a period of three years,
+  to practice Zen training at Tofukuji, a Kyoto based Rinzai Zen Monastery.
+  In february 2006 my daughter Nola was born.
+  Nowadays I still live in Utrecht, in a commune with many broad minded and interesting people around me,
+  including my girlfriend Elske. My daughter lives with me 2 days a week, every week.
 
 #profile-picture.modal.fade
   .modal-dialog

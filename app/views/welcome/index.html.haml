@@ -7,6 +7,8 @@
     = link_to 'info', '#info', data: { toggle: 'tab' }
   %li
     = link_to 'portfolio', '#portfolio', data: { toggle: 'tab' }
+  %li
+    = link_to 'experience', '#experience', data: { toggle: 'tab' }
 
 .tab-content
   #home.tab-pane.active
@@ -17,6 +19,8 @@
     = render 'info'
   #portfolio.tab-pane
     = render 'portfolio'
+  #experience.tab-pane
+    = render 'experience'
 
 #contact-details
   .phone
