@@ -1,71 +1,34 @@
-@include keyframes(fadeIn) {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+body {
+  @include linear-gradient($body-bg, darken($body-bg, 5%));
+  background-attachment: fixed;
 }
 
 .container {
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
   .content {
     @extend .col-md-8;
     @extend .col-md-offset-2;
-
     background-color: #fff;
-    border-color: #ddd;
+    border: 1px solid #ddd;
     border-radius: 4px 4px 0 0;
-    box-shadow: 0 0 5px 1px #ddd;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.08);
     padding-top: 10px;
 
     ul.nav li.active a {
       background-color: #fff;
     }
   }
+
+  .logo-container {
+    @extend .col-md-2;
+  }
 }
 
 #home {
-  .logo {
-    color: #41AD49;
-    float: right;
-    margin-right: 15px;
-
-    pre {
-      font-family: 'OCR A Std';
-      font-size: 24px;
-      opacity: 0;
-      @include animation(fadeIn ease-in 1);
-      @include animation-fill-mode(forwards);
-      @include animation-duration(2s);
-      line-height: 1.22;
-      padding: 0;
-      margin: 1em 0;
-      color: #41AD49;
-      background-color: #fff;
-      border: none;
-    }
-
-    .x {
-      line-height: 1.22;
-      font-family: Verdana, sans-serif;
-      font-size: 76px;
-      margin-top: -72px;
-      margin-left: 69px;
-      opacity: 0;
-      @include animation(fadeIn ease-in 1);
-      @include animation-fill-mode(forwards);
-      @include animation-delay(3s);
-    }
-  }
-
   #word-cloud {
-    margin-top: 10px;
-    margin-left: 15px;
-    height: 400px;
-    @extend .col-md-9;
+    height: 350px;
 
     .w1, .w2, .w3, .w4, .w5, .w6, .w7, .w8, .w9, .w10 {
       text-shadow: 1px 1px 1px #585858;
@@ -136,23 +99,14 @@
     @extend .row;
 
     .data {
-      @extend .col-md-3;
-      @extend .panel;
-      @extend .panel-default;
-      padding-left: 0;
-      padding-right: 0;
-      margin-left: 15px;
+      @extend .col-md-4;
 
-      .heading {
-        @extend .panel-heading;
+      .panel {
+        @extend .panel-default;
 
         h3 {
           @extend .panel-title;
         }
-      }
-
-      .body {
-        @extend .panel-body;
       }
     }
   }
@@ -160,11 +114,11 @@
 
 #contact-details {
   @extend .row;
-  margin-top: 20px;
-  margin-bottom: 10px;
 
   .phone, .mail {
     @extend .col-md-6;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }

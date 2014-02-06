@@ -4,9 +4,10 @@ module ApplicationHelper
   end
 
   def skills
-    skill_list = YAML::load(File.open('config/skills.yml'))
-    skills = skill_list['skills'].values.flatten
+    skills = YAML::load(File.open('config/skills.yml'))
+    skills = skills['skills'].values.flatten
     skills = skills.map{ |skill| skill.map{ |k, v| "text:'#{k}',weight:#{v}" }}.join('},{')
+
     javascript_tag "window.word_list = [{#{skills}}];"
   end
 end

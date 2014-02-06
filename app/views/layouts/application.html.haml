@@ -13,6 +13,8 @@
       .row
         .content
           = yield
+        .logo-container
+          = render 'shared/logo'
 
     = skills
     = javascript_include_tag 'application', 'data-turbolinks-track' => true

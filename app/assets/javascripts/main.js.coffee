@@ -9,8 +9,7 @@ $ ->
       when 'info' then resetMap()
 
 wordCloud = ->
-  $('#word-cloud').html ''
-  $('#word-cloud').jQCloud word_list,
+  $('#word-cloud').html('').css('width', '').jQCloud word_list,
     delayedMode: true
     removeOverflowing: false
 
