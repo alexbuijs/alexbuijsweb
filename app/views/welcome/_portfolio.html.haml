@@ -1,0 +1,32 @@
+#carousel.carousel.slide{ data: { ride: 'carousel' }}
+  .carousel-inner
+    .item.active
+      = image_tag 'examentrainer.png'
+      .carousel-caption
+        %h3= link_to 'Examentrainer', 'http://examentrainingmbo.nl/', target: '_blank'
+        %p For Malmberg I made this exam trainer for MBO students
+    .item
+      = image_tag 'youmagine.png'
+      .carousel-caption
+        %h3= link_to 'YouMagine', 'https://www.youmagine.com/', target: '_blank'
+        %p For Ultimaker I contributed to building this social platform for sharing 3D print designs
+    .item
+      = image_tag 'light-collector.png'
+      .carousel-caption
+        %h3= link_to 'Light Collector', 'https://www.light-collector.com/', target: '_blank'
+        %p For Philips I made this social platform for sharing images as part of a team
+    .item
+      = image_tag 'lppmbo.png'
+      .carousel-caption
+        %h3 Malmberg Taalblokken
+        %p For Malmberg I made this comprehensive digital education environment for MBO students as part of a team
+    .item
+      = image_tag 'lppvo.png'
+      .carousel-caption
+        %h3 Malmberg Methodesites VO
+        %p For Malmberg I made this comprehensive digital education environment for VO students as part of a team
+
+  = link_to '#carousel', class: 'left carousel-control', data: { slide: 'prev' } do
+    %span.glyphicon.glyphicon-chevron-left
+  = link_to '#carousel', class: 'right carousel-control', data: { slide: 'next' } do
+    %span.glyphicon.glyphicon-chevron-right
