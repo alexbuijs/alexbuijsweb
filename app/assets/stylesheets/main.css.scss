@@ -1,5 +1,5 @@
 body {
-  @include linear-gradient($body-bg, darken($body-bg, 5%));
+  @include linear-gradient($body-bg, darken($body-bg, 10%));
   background-attachment: fixed;
 }
 
