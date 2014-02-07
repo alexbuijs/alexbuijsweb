@@ -29,6 +29,8 @@ body {
 #home {
   #word-cloud {
     height: 350px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 
     .w1, .w2, .w3, .w4, .w5, .w6, .w7, .w8, .w9, .w10 {
       text-shadow: 1px 1px 1px #585858;
@@ -77,19 +79,14 @@ body {
 }
 
 #about {
+  margin-bottom: 20px;
+
   .thumbnail {
     width: 200px;
     height: 200px;
     float: right;
     margin-bottom: 5px;
     margin-left: 5px;
-  }
-
-  #profile-picture {
-    img {
-      width: 100%;
-      height: 100%;
-    }
   }
 }
 
@@ -117,8 +114,7 @@ body {
 
 #portfolio {
   .carousel {
-    height: 470px;
-    margin-top: 20px;
+    margin-bottom: 10px;
 
     .carousel-caption {
       background: rgba(0,0,0,0.5);
@@ -136,13 +132,31 @@ body {
   }
 }
 
+#experience {
+  .started, .ended {
+    width: 10%;
+  }
+
+  .branch {
+    width: 15%
+  }
+
+  .company {
+    width: 20%;
+  }
+
+  .platform {
+    width: 30%;
+  }
+}
+
 #contact-details {
   @extend .row;
+  margin-bottom: 10px;
 
   .phone, .mail {
     @extend .col-md-6;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
