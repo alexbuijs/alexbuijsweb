@@ -1,0 +1,21 @@
+.hidden
+  %div{ itemscope: '', itemtype: 'http://schema.org/Person' }
+    = image_tag('profile.jpg', itemprop: 'image')
+    %meta{ itemprop: 'name', content: 'Alex Buijs' }
+    %meta{ itemprop: 'jobTitle', content: 'Freelance Ruby on Rails Web Developer' }
+    %meta{ itemprop: 'telephone', content: '+316 4048 5702' }
+    %meta{ itemprop: 'email', content: 'contact@alexbuijsweb.nl' }
+  %div{ itemscope: '', itemtype: 'http://schema.org/Organization' }
+    %meta{ itemprop: 'name', content: 'Alex Buijs Web Development' }
+    %div{ itemprop: 'address', itemscope: '', itemtype: 'http://schema.org/PostalAddress' }
+      %meta{ itemprop: 'streetAddress', content: 'Haitidreef 3E' }
+      %meta{ itemprop: 'postalCode', content: '3563 HC' }
+      %meta{ itemprop: 'addressLocality', content: 'Utrecht' }
+      %meta{ itemprop: 'addressCountry', content: 'The Netherlands' }
+      %meta{ itemprop: 'telephone', content: '+316 4048 5702' }
+      %meta{ itemprop: 'email', content: 'contact@alexbuijsweb.nl' }
+    = link_to 'Alex Buijs Web Development - Freelance Ruby on Rails Web Developer', root_url, itemprop: 'url'
+  %div{ itemscope: '', itemtype: 'http://schema.org/Place' }
+    %div{ itemscope: '', itemprop: 'geo', itemtype: 'http://www.schema.org/GeoCoordinates' }
+      %meta{ itemprop: 'latitude', content: '52.123002' }
+      %meta{ itemprop: 'longitude', content: '5.094841' }
