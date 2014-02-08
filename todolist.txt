@@ -9,3 +9,4 @@ TODO:
   ☐ Link to downloadable terms & conditions
   ☐ Link to downloadable CV
   ☐ photo bug?
+  ☐ add structured data element for google
