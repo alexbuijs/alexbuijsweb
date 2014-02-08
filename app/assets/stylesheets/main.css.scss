@@ -4,8 +4,11 @@ body {
 }
 
 .container {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  .header, .footer {
+    @extend .row;
+    @extend .hidden-xs;
+    height: 20px;
+  }
 
   .content {
     @extend .col-md-8;
@@ -23,10 +26,16 @@ body {
 
   .logo-container {
     @extend .col-md-2;
+    @extend .hidden-xs;
   }
 }
 
 #home {
+  .logo {
+    @extend .visible-xs;
+    margin: 10px auto;
+  }
+
   #word-cloud {
     height: 350px;
     margin-top: 20px;

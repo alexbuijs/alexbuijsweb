@@ -10,11 +10,13 @@
 
   %body
     .container
+      .header
       .row
         .content
           = yield
         .logo-container
           = render 'shared/logo'
+      .footer
 
     = skills
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
