@@ -8,6 +8,11 @@ $ ->
       when 'home' then wordCloud()
       when 'info' then resetMap()
 
+  $('#carousel').swiperight ->
+    $(this).carousel 'prev'
+  $('#carousel').swipeleft ->
+    $(this).carousel 'next'
+
 wordCloud = ->
   $('#word-cloud').html('').css('width', '').jQCloud word_list,
     delayedMode: true

@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.mobile.custom
 //= require turbolinks
 //= require bootstrap/transition
 //= require bootstrap/tab
