@@ -1,17 +1,20 @@
 skills:
   basic:
     - 'Ruby': 10
+    - 'Rails': 9
+    - 'Javascript': 5
   js:
-    - 'Javascript': 3
     - 'Coffeescript': 6
+    - 'Handlebars.js': 3
+    - 'Emblem.js': 3
   html:
     - 'HTML5': 3
-    - 'HAML': 6
+    - 'HAML': 5
     - 'Slim': 2
     - 'ERB': 1
   css:
     - 'CSS3': 3
-    - 'SCSS': 6
+    - 'SCSS': 5
     - 'Sass': 3
     - 'LESS': 1
   sql:
@@ -20,11 +23,15 @@ skills:
     - 'MySQL': 2
     - 'PostgreSQL': 6
     - 'Redis': 4
-  frameworks:
-    - 'Rails': 9
+  js_frameworks:
     - 'jQuery': 6
-    - 'Bootstrap': 6
+    - 'Backbone.js': 6
+  css_frameworks:
+    - 'Bootstrap': 4
+    - 'Foundation': 4
   tools:
+    - 'Apache Cordova': 4
+    - 'Titanium': 4
     - 'Capistrano': 3
     - 'RSpec': 6
     - 'Git': 6
