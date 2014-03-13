@@ -1,18 +1,23 @@
 .page-header
-  %h1 Portfolio
+  %h1 Recent Projects
 
 #carousel.carousel.slide{ data: { ride: 'carousel' }}
   .carousel-inner
     .item.active
-      = image_tag 'examentrainer.png'
+      = image_tag 'idt-capture.png'
       .carousel-caption
-        %h3= link_to 'Examentrainer', 'http://examentrainingmbo.nl/', target: '_blank'
-        %p For Malmberg I made this exam trainer for MBO students
+        %h3 IDT Capture
+        %p For IDT I made this mobile application, which is essentially a one-page Backbone.js app, packaged with Apache Cordova (Phonegap)
     .item
       = image_tag 'youmagine.png'
       .carousel-caption
         %h3= link_to 'YouMagine', 'https://www.youmagine.com/', target: '_blank'
         %p For Ultimaker I contributed to building this social platform for sharing 3D print designs
+    .item
+      = image_tag 'examentrainer.png'
+      .carousel-caption
+        %h3= link_to 'Examentrainer', 'http://examentrainingmbo.nl/', target: '_blank'
+        %p For Malmberg I made this exam trainer for MBO students
     .item
       = image_tag 'light-collector.png'
       .carousel-caption

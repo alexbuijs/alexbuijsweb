@@ -125,17 +125,24 @@ body {
   .carousel {
     margin-bottom: 10px;
 
-    .carousel-caption {
-      background: rgba(0,0,0,0.5);
-      margin-bottom: 20px;
-      padding: 0;
-
-      h3 {
-        margin-top: 10px;
+    .item {
+      img {
+        margin: 0 auto;
+        height: 522px;
       }
 
-      a {
-        color: #fff;
+      .carousel-caption {
+        background: rgba(0,0,0,0.5);
+        margin-bottom: 20px;
+        padding: 0;
+
+        h3 {
+          margin-top: 10px;
+        }
+
+        a {
+          color: #fff;
+        }
       }
     }
   }
