@@ -18,5 +18,7 @@
 //= require bootstrap/tab
 //= require bootstrap/modal
 //= require bootstrap/carousel
+//= require bootstrap/tooltip
+//= require bootstrap/popover
 //= require jqcloud
 //= require_tree .

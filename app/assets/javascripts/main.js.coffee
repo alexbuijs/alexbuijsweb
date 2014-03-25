@@ -13,6 +13,8 @@ $ ->
   $('#carousel').swipeleft ->
     $(this).carousel 'next'
 
+  $('tr[data-toggle=popover]').popover trigger: 'hover', html: true, placement: 'left'
+
 wordCloud = ->
   $('#word-cloud').html('').css('width', '').jQCloud word_list,
     delayedMode: true
