@@ -1,6 +1,10 @@
 .page-header
   %h1 Work experience
 
+.panel
+  = link_to asset_path('resume.pdf'), target: '_blank' do
+    = fa_icon 'file', text: 'Download resume'
+
 .panel.panel-default
   .panel-heading Alex Buijs Web Development
   .table-responsive
