@@ -33,6 +33,10 @@ gem 'bootstrap-sass'
 gem 'jqcloud-rails'
 gem 'font-awesome-rails'
 
+group :development do
+  gem 'quiet_assets'
+end
+
 group :production do
   gem 'rails_12factor'
   gem 'heroku-deflater'

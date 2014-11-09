@@ -69,6 +69,8 @@ GEM
     minitest (5.4.2)
     multi_json (1.10.1)
     newrelic_rpm (3.9.6.257)
+    quiet_assets (1.0.3)
+      railties (>= 3.1, < 5.0)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -135,6 +137,7 @@ DEPENDENCIES
   jqcloud-rails
   jquery-rails
   newrelic_rpm
+  quiet_assets
   rails (= 4.1.7)
   rails_12factor
   sass-rails
