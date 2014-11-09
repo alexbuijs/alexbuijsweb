@@ -20,10 +20,6 @@ wordCloud = ->
     delayedMode: true
     removeOverflowing: false
 
-window.map
-window.marker
-window.home
-
 showMap = ->
   window.map    = new google.maps.Map document.getElementById('map-canvas')
   window.home   = new google.maps.LatLng 52.123002, 5.094841

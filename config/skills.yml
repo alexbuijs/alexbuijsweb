@@ -5,8 +5,6 @@ skills:
     - 'Javascript': 5
   js:
     - 'Coffeescript': 6
-    - 'Handlebars.js': 3
-    - 'Emblem.js': 3
   html:
     - 'HTML5': 3
     - 'HAML': 5
@@ -20,29 +18,41 @@ skills:
   sql:
     - 'SQL': 3
   databases:
-    - 'MySQL': 2
+    - 'MySQL': 3
     - 'PostgreSQL': 6
     - 'Redis': 4
   js_frameworks:
     - 'jQuery': 6
     - 'Backbone.js': 6
+    - 'Marionette.js': 6
+    - 'RequireJS': 6
   css_frameworks:
     - 'Bootstrap': 4
     - 'Foundation': 4
-  tools:
-    - 'Apache Cordova': 4
-    - 'Titanium': 4
-    - 'Capistrano': 3
+  testing_frameworks:
     - 'RSpec': 6
+    - 'Cucumber': 6
+    - 'Capybara': 4
+    - 'Mocha': 4
+    - 'Konacha': 4
+  ci_and_code_quality:
+    - 'Jenkins': 6
+    - 'Rubocop': 1
+  mobile:
+    - 'Cordova': 4
+  deployment:
+    - 'Capistrano': 3
+    - 'Vagrant': 3
+  tools:
     - 'Git': 6
-    - 'RVM': 3
     - 'Sublime Text': 1
     - 'OS X': 2
-  servers:
-    - 'Nginx': 4
+    - 'Homebrew': 2
+  web_servers:
+    - 'Nginx': 3
     - 'Apache': 3
-    - 'Unicorn': 4
-    - 'Phusion Passenger': 1
+    - 'Unicorn': 3
+    - 'Passenger': 3
   services:
     - 'Heroku': 5
     - 'GitHub': 5

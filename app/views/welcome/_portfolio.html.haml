@@ -4,10 +4,25 @@
 .carousel.slide#carousel{ data: { ride: 'carousel' }}
   .carousel-inner
     .item.active
+      = image_tag 'digid.png'
+      .carousel-caption
+        %h3= link_to 'Digidentity', 'https://digid.nl/inloggen', target: '_blank'
+        %p For Digidentity I contributes to the identity management platform for the Dutch government, a Rails application
+    .item
+      = image_tag 'yellowbrick.png'
+      .carousel-caption
+        %h3= link_to 'Yellowbrick', 'http://www.yellowbrick.nl/parkeren/straatparkeren/bricken-met-de-app/', target: '_blank'
+        %p For Yellowbrick I contributed to this mobile application, which is essentially a one-page Backbone/Marionette app, packaged with Apache Cordova
+    .item
+      = image_tag 'seacon.png'
+      .carousel-caption
+        %h3 Seacon
+        %p For Seacon I made this mobile application, which is essentially a one-page Backbone/Marionette app, packaged with Apache Cordova
+    .item
       = image_tag 'idt-capture.png'
       .carousel-caption
         %h3 IDT Capture
-        %p For IDT I made this mobile application, which is essentially a one-page Backbone.js app, packaged with Apache Cordova (Phonegap)
+        %p For IDT I made this mobile application, which is essentially a one-page Backbone.js app, packaged with Apache Cordova
     .item
       = image_tag 'youmagine.png'
       .carousel-caption
