@@ -11,6 +11,11 @@
  *= require_self
  */
 
+$brand-primary: #505c51;
+$body-bg: #f0f0f0 !default;
+$text-color: $brand-primary !default;
+$nav-tabs-justified-active-link-border-color: #fff !default;
+
 @import 'bourbon';
 @import 'bootstrap';
 @import 'font-awesome';

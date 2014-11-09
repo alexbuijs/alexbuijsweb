@@ -11,15 +11,15 @@
     = link_to 'experience', '#experience', data: { toggle: 'tab' }
 
 .tab-content
-  #home.tab-pane.active
+  .tab-pane.active#home
     = render 'home'
-  #about.tab-pane
+  .tab-pane#about
     = render 'about'
-  #info.tab-pane
+  .tab-pane#info
     = render 'info'
-  #portfolio.tab-pane
+  .tab-pane#portfolio
     = render 'portfolio'
-  #experience.tab-pane
+  .tab-pane#experience
     = render 'experience'
 
 #contact-details

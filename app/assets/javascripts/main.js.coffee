@@ -33,7 +33,7 @@ showMap = ->
     title: 'home'
 
   infowindow = new google.maps.InfoWindow
-    content: 'Haïtidreef 3E<br>3563 HC&nbsp;&nbsp;Utrecht'
+    content: 'Alex Buijs WD<br>Haïtidreef 3E<br>3563 HC Utrecht'
 
   google.maps.event.addListener marker, 'click', ->
     infowindow.open map, marker

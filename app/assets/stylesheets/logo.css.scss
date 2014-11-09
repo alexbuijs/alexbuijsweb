@@ -1,4 +1,4 @@
-/*@include font-face(OCR A Std, 'ocr_a_std', normal, $asset-pipeline: true);*/
+// @include font-face(OCR A Std, 'ocr_a_std', normal, $asset-pipeline: true);
 @font-face {
   font-family: 'OCR A Std';
   src: url(font-path('ocr_a_std.eot'));
@@ -15,6 +15,7 @@
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -25,11 +26,11 @@
 
   pre {
     background-color: transparent;
-    border: none;
-    line-height: 1.22;
-    color: #41AD49;
+    border: 0;
+    color: #41ad49;
     font-family: 'OCR A Std';
     font-size: 24px;
+    line-height: 1.22;
     opacity: 0;
     @include animation(fadeIn ease-in 1);
     @include animation-fill-mode(forwards);
@@ -37,16 +38,16 @@
   }
 
   .x {
-    margin-top: -67px;
-    margin-left: 78px;
-    line-height: 1.22;
-    color: #41AD49;
+    color: #41ad49;
     font-family: Verdana, sans-serif;
     font-size: 76px;
+    line-height: 1.22;
+    margin-left: 78px;
+    margin-top: -67px;
     opacity: 0;
     @include animation(fadeIn ease-in 1);
     @include animation-fill-mode(forwards);
-    @include animation-duration(0.01s);
+    @include animation-duration(.01s);
     @include animation-delay(3s);
   }
 }

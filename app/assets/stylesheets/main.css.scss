@@ -4,7 +4,8 @@ body {
 }
 
 .container {
-  .header, .footer {
+  .header,
+  .footer {
     @extend .row;
     @extend .hidden-xs;
     height: 20px;
@@ -16,12 +17,12 @@ body {
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 4px 4px 0 0;
-    box-shadow: 0 2px 2px rgba(0,0,0,0.08);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .08);
     padding-top: 10px;
+  }
 
-    ul.nav li.active a {
-      background-color: #fff;
-    }
+  li.active a {
+    background-color: #fff;
   }
 
   .logo-container {
@@ -38,10 +39,19 @@ body {
 
   #word-cloud {
     height: 350px;
-    margin-top: 20px;
     margin-bottom: 20px;
+    margin-top: 20px;
 
-    .w1, .w2, .w3, .w4, .w5, .w6, .w7, .w8, .w9, .w10 {
+    .w1,
+    .w2,
+    .w3,
+    .w4,
+    .w5,
+    .w6,
+    .w7,
+    .w8,
+    .w9,
+    .w10 {
       text-shadow: 1px 1px 1px #585858;
     }
 
@@ -91,11 +101,11 @@ body {
   margin-bottom: 20px;
 
   .thumbnail {
-    width: 200px;
-    height: 200px;
     float: right;
+    height: 200px;
     margin-bottom: 5px;
     margin-left: 5px;
+    width: 200px;
   }
 }
 
@@ -104,19 +114,20 @@ body {
     height: 300px;
   }
 
-  .info, .social {
+  .info,
+  .social {
     @extend .row;
+  }
 
-    .data {
-      @extend .col-md-4;
+  .data {
+    @extend .col-md-4;
+  }
 
-      .panel {
-        @extend .panel-default;
+  .panel {
+    @extend .panel-default;
 
-        h3 {
-          @extend .panel-title;
-        }
-      }
+    h3 {
+      @extend .panel-title;
     }
   }
 }
@@ -124,37 +135,38 @@ body {
 #portfolio {
   .carousel {
     margin-bottom: 10px;
+  }
 
-    .item {
-      img {
-        margin: 0 auto;
-        height: 522px;
-      }
+  .item {
+    img {
+      height: 522px;
+      margin: 0 auto;
+    }
+  }
 
-      .carousel-caption {
-        background: rgba(0,0,0,0.5);
-        margin-bottom: 20px;
-        padding: 0;
+  .carousel-caption {
+    background: rgba(0, 0, 0, .5);
+    margin-bottom: 20px;
+    padding: 0;
 
-        h3 {
-          margin-top: 10px;
-        }
+    h3 {
+      margin-top: 10px;
+    }
 
-        a {
-          color: #fff;
-        }
-      }
+    a {
+      color: #fff;
     }
   }
 }
 
 #experience {
-  .started, .ended {
+  .started,
+  .ended {
     width: 10%;
   }
 
   .branch {
-    width: 15%
+    width: 15%;
   }
 
   .company {
@@ -170,9 +182,10 @@ body {
   @extend .row;
   margin-bottom: 10px;
 
-  .phone, .mail {
+  .phone,
+  .mail {
     @extend .col-md-6;
-    text-align: center;
     margin-bottom: 10px;
+    text-align: center;
   }
 }
