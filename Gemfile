@@ -37,6 +37,7 @@ gem 'font-awesome-rails'
 
 group :development do
   gem 'quiet_assets'
+  gem 'overcommit'
 end
 
 group :production do
